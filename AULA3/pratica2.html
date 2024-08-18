@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Pessoa</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="#" method="post">
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Características</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text" name="nome" maxlength="100" required></td>
+                    <td>Required, Máximo de Caracteres 100</td>
+                </tr>
+                <tr>
+                    <td>Sobrenome</td>
+                    <td><input type="text" name="sobrenome" maxlength="100" required></td>
+                    <td>Required, Máximo de Caracteres 100</td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td><input type="email" name="email" required></td>
+                    <td>Required</td>
+                </tr>
+                <tr>
+                    <td>Data de Nascimento</td>
+                    <td><input type="date" name="data_nascimento" min="1920-01-01" max="2024-01-01"></td>
+                    <td>Mínimo permitido 01/01/1920, Máximo permitido 01/01/2024</td>
+                </tr>
+                <tr>
+                    <td>Sexo</td>
+                    <td>
+                        <input type="radio" name="sexo" value="Masculino" required>Masculino
+                        <input type="radio" name="sexo" value="Feminino" required>Feminino
+                    </td>
+                    <td>Opções Masculino e Feminino</td>
+                </tr>
+                <tr>
+                    <td>Endereço</td>
+                    <td><input type="text" name="endereco" maxlength="200"></td>
+                    <td>Máximo de Caracteres 200</td>
+                </tr>
+                <tr>
+                    <td>CEP</td>
+                    <td><input type="text" name="cep" maxlength="10"></td>
+                    <td>Máximo de Caracteres 10</td>
+                </tr>
+                <tr>
+                    <td>Cor favorita</td>
+                    <td><input type="color" name="cor_favorita"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Estado (UF)</td>
+                    <td>
+                        <select name="estado">
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
