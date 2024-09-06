@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Notas dos Alunos</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <table id="tabela-notas" border="1" cellspacing="0" cellpadding="5">
+    <h1>Notas dos Alunos</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
         <thead>
             <tr>
                 <th rowspan="2">Aluno</th>
@@ -40,70 +42,69 @@
             </tr>
             <tr>
                 <td>Maria</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7.5</td>
+                <td>8</td>
+                <td>9</td>
+                <td>7</td>
+                <td>7.5</td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>José</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>8</td>
+                <td>6.5</td>
+                <td>7</td>
+                <td>9</td>
+                <td>7.5</td>
+                <td>6</td>
+                <td>8.5</td>
+                <td>9</td>
+                <td>6</td>
             </tr>
             <tr>
                 <td>Paulo</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>9</td>
+                <td>7.5</td>
+                <td>8</td>
+                <td>8</td>
+                <td>9.5</td>
+                <td>7.5</td>
+                <td>8</td>
+                <td>8.5</td>
+                <td>9</td>
             </tr>
             <tr>
                 <td>Miguel</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>6.5</td>
+                <td>7</td>
+                <td>8</td>
+                <td>7.5</td>
+                <td>8</td>
+                <td>7</td>
+                <td>6</td>
+                <td>8</td>
+                <td>7.5</td>
             </tr>
             <tr>
                 <td>Julia</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>7.5</td>
+                <td>8.5</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+                <td>8.5</td>
+                <td>7.5</td>
+                <td>7.5</td>
+                <td>8.5</td>
             </tr>
         </tbody>
     </table>
 
-    <button onclick="adicionarLinhaTotalizadora()">Adicionar Linha Totalizadora</button>
-    <button onclick="adicionarColunaTotalizadora()">Adicionar Coluna Totalizadora</button>
-
-    <script src="script.js"></script>
+    <br>
+    <button onclick="adicionarLinhaTotalizadora()">Adicionar Linha de Média</button>
+    <button onclick="adicionarColunaTotalizadora()">Adicionar Coluna de Média</button>
 </body>
 </html>
