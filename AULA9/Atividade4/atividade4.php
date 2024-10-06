@@ -19,9 +19,7 @@
 
     <?php
 
-    function calcularAreaRetangulo($lado_a, $lado_b) {
-        return $lado_a * $lado_b;
-    }
+    require_once("function.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $lado_a = $_POST['lado_a'];

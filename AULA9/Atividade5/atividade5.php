@@ -20,9 +20,7 @@
 
     <?php
 
-    function calcularAreaTriangulo($base, $altura) {
-        return ($base * $altura) / 2;
-    }
+    require_once("function.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $base = $_POST['base'];

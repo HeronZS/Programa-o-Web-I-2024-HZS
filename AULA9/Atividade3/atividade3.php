@@ -16,9 +16,7 @@
 
     <?php
 
-    function calcularAreaQuadrado($lado) {
-        return $lado * $lado;
-    }
+    require_once("function.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $lado = $_POST['lado'];

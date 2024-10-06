@@ -21,9 +21,7 @@
 
     <?php
 
-    function verificarDivisibilidadePor2($numero) {
-        return $numero % 2 == 0;
-    }
+    require_once("function.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $numero = $_POST['numero'];

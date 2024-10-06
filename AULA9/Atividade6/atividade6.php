@@ -49,9 +49,7 @@
 
     <?php
 
-    function calcularValor($preco, $quantidade) {
-        return $preco * $quantidade;
-    }
+   require_once("function.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $maca_preco = $_POST['maca_preco'];
