@@ -3,10 +3,10 @@
     $SALARIO1 = 1000;
     $SALARIO2 = 2000;
 
-    for ($x = 0; $x < 100; $x++) {
+    for ($i = 0; $i <= 100; $i++) {
         ++$SALARIO1;
 
-        if ($x == 49) {
+        if ($i == 49) {
             break;
         }
     }
